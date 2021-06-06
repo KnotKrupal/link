@@ -456,8 +456,8 @@ p {
 	}
 	100% {
 		width: 75%;
-        max-width: 600px; 
-		height: 85%;
+        max-width: 500px; 
+		height: 95%;
 		background: #FFFFFF;
 		border-radius: 40px;
 	}
