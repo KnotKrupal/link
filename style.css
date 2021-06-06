@@ -18,7 +18,7 @@ body:before {
     content: "";
     height: 0px;
     padding: 0px;
-    border: 150em solid skyblue;
+    border: 150em solid #72747a;
 	position: absolute;
 	left: 50%;
 	top: 100%;
@@ -456,6 +456,7 @@ p {
 	}
 	100% {
 		width: 75%;
+        max-width: 600px; 
 		height: 85%;
 		background: #FFFFFF;
 		border-radius: 40px;
