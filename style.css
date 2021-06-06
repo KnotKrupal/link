@@ -1,3 +1,364 @@
+
+.wow-button {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  padding: 1em 2em;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  justify-content: center;
+  width: 75%;
+  color: #fff;
+  outline: none;
+  border-radius: 1.5em;
+  border: none;
+  background: #e6203b;
+  box-sizing: border-box;
+}
+.wow-button.active {
+  -webkit-animation: bounce 0.3s ease-out;
+          animation: bounce 0.3s ease-out;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(1) {
+  -webkit-animation-name: anim1;
+          animation-name: anim1;
+}
+@-webkit-keyframes anim1 {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scaleY(0.5);
+  }
+}
+@keyframes anim1 {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scaleY(0.5);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(2) {
+  -webkit-animation-name: anim2;
+          animation-name: anim2;
+}
+@-webkit-keyframes anim2 {
+  0% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(30deg) translateY(-8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(-16px) scaleY(0.5);
+  }
+}
+@keyframes anim2 {
+  0% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(30deg) translateY(-8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(-16px) scaleY(0.5);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(3) {
+  -webkit-animation-name: anim3;
+          animation-name: anim3;
+}
+@-webkit-keyframes anim3 {
+  0% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(0) scaleX(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(90deg) translateY(-10px) scaleX(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(-20px) scaleX(0.5);
+  }
+}
+@keyframes anim3 {
+  0% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(0) scaleX(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(90deg) translateY(-10px) scaleX(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(-20px) scaleX(0.5);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(4) {
+  -webkit-animation-name: anim4;
+          animation-name: anim4;
+}
+@-webkit-keyframes anim4 {
+  0% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(-30deg) translateY(8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(16px) scaleY(0.5);
+  }
+}
+@keyframes anim4 {
+  0% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(-30deg) translateY(8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(16px) scaleY(0.5);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(5) {
+  -webkit-animation-name: anim5;
+          animation-name: anim5;
+}
+@-webkit-keyframes anim5 {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scaleY(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(10px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px) scaleY(0.5);
+  }
+}
+@keyframes anim5 {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scaleY(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(10px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px) scaleY(0.5);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(6) {
+  -webkit-animation-name: anim6;
+          animation-name: anim6;
+}
+@-webkit-keyframes anim6 {
+  0% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(30deg) translateY(8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(16px) scaleY(0.5);
+  }
+}
+@keyframes anim6 {
+  0% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(30deg) translateY(8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(30deg) translateY(16px) scaleY(0.5);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(7) {
+  -webkit-animation-name: anim7;
+          animation-name: anim7;
+}
+@-webkit-keyframes anim7 {
+  0% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(0) scaleX(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(90deg) translateY(10px) scaleX(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(20px) scaleX(0.5);
+  }
+}
+@keyframes anim7 {
+  0% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(0) scaleX(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(90deg) translateY(10px) scaleX(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(90deg) translateY(20px) scaleX(0.5);
+  }
+}
+.wow-button.active .wow-button__shape-item:nth-of-type(8) {
+  -webkit-animation-name: anim8;
+          animation-name: anim8;
+}
+@-webkit-keyframes anim8 {
+  0% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(-30deg) translateY(-8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(-16px) scaleY(0.5);
+  }
+}
+@keyframes anim8 {
+  0% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(0) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(-30deg) translateY(-8px) scaleY(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-30deg) translateY(-16px) scaleY(0.5);
+  }
+}
+
+.wow-button__shape-item {
+  position: absolute;
+  opacity: 0;
+  margin: auto;
+  width: 2px;
+  height: 8px;
+  background: #e6203b;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+.wow-button__shape-item:nth-of-type(1) {
+  top: -20px;
+  right: 0;
+  left: 0;
+}
+.wow-button__shape-item:nth-of-type(2) {
+  top: -20px;
+  right: -70%;
+  left: 0;
+}
+.wow-button__shape-item:nth-of-type(3) {
+  top: 0;
+  right: -10px;
+  bottom: 0;
+}
+.wow-button__shape-item:nth-of-type(4) {
+  right: -70%;
+  bottom: -20px;
+  left: 0;
+}
+.wow-button__shape-item:nth-of-type(5) {
+  right: 0;
+  bottom: -20px;
+  left: 0;
+}
+.wow-button__shape-item:nth-of-type(6) {
+  right: 0;
+  bottom: -20px;
+  left: -70%;
+}
+.wow-button__shape-item:nth-of-type(7) {
+  top: 0;
+  bottom: 0;
+  left: -10px;
+}
+.wow-button__shape-item:nth-of-type(8) {
+  top: -20px;
+  right: 0;
+  left: -70%;
+}
+
+:root {
+  --color-h: 206;
+  --color-s: 64%;
+  --color: hsl(var(--color-h), var(--color-s), 42%);
+  --color-dark: hsl(var(--color-h), var(--color-s), 22%);
+}
+
+button{
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.2); 
+}
+
+
+
 html {
     height: 100%;
 }
@@ -45,7 +406,8 @@ p {
     margin: 0px;
 }
 .profile-card {
-	background: #FFB300;
+	background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(2.5px);
 	width: 50%;
 	height: 75%;
 	position: absolute;
@@ -71,8 +433,8 @@ p {
     display: inline-block;
     float: left;
     border-right: 2px dashed #EEEEEE;
-	background: #FFFFFF;
-    color: #000000;
+
+    color: #ffffff;
     margin-top: 50px;
     opacity: 0;
     text-align: center;
@@ -127,8 +489,8 @@ p {
     display: inline-block;
     float: right;
     padding: 50px 20px 30px 20px;
-	background: #FFFFFF;
-    color: #333333;
+	
+    color: #ffffff;
     margin-top: 50px;
     text-align: center;
     opacity: 0;
@@ -141,7 +503,7 @@ p {
     float: right;
     margin: 0px;
     padding: 15px 20px;
-	background: #FFFFFF;
+	background: rgba(255,255,255,1);
     margin-top: 50px;
     text-align: center;
     opacity: 0;
@@ -458,7 +820,7 @@ p {
 		width: 75%;
         max-width: 500px; 
 		height: 95%;
-		background: #FFFFFF;
+		background-color: rgba(255, 255, 255, .25);
 		border-radius: 40px;
 	}
 }
