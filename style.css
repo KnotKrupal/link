@@ -448,7 +448,7 @@ p {
     display: inline-block;
     text-align: center;
     position: relative;
-    margin: 25px 30px;
+    margin: 25px 32px 10px;
 }
 .profile-card header a:after {
 	position: absolute;
@@ -470,7 +470,7 @@ p {
     animation: scaleIn 0.3s 3.5s ease forwards;
 }
 .profile-card header a > img {
-    width: 120px;
+    width: 100px;
     max-width: 100%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -502,7 +502,7 @@ p {
     display: inline-block;
     float: right;
     margin: 0px;
-    padding: 15px 20px;
+    padding: 0px 20px;
 	background: rgba(255,255,255,1);
     margin-top: 50px;
     text-align: center;
@@ -514,7 +514,7 @@ p {
 }
 .profile-social-links li {
     list-style: none;
-    margin: -5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
     float: left;
     width: 33.3%;
@@ -601,7 +601,7 @@ p {
 	.profile-card header {
         width: auto;
         height: auto;
-        padding: 30px 20px;
+        padding: 0px 20px 10px;
         display: block;
         float: none;
         border-right: none;
@@ -609,7 +609,7 @@ p {
     .profile-card .profile-bio {
         width: auto;
         height: auto;
-        padding: 15px 20px 30px 20px;
+        padding: 15px 20px 10px 20px;
         display: block;
         float: none; 
     }
